@@ -1,2 +1,3 @@
 # Animeverse
-Entertainment Website
+Entertainment Website <br>
+Author - Prateek Sharma
