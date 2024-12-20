@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.lime::-webkit-scrollbar{ display: none;}
+
+body{font-family: 'Poppins', sans-serif;  font-weight: 100}
+
+.apple{background-image: url("groot.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+*{box-sizing: border-box; margin: 0px; padding: 0px;}
+
+/* for the video */
+video{ right: 0;
+     bottom: 0;
+    min-width: 100%;
+    min-height: 90%;
+  opacity: 1;}
+
+/* Split the screen in half */
+.split {
+   color: white;
+    overflow-x: hidden;}
+
+  /* alignment of anime and manga */
+  .centered {
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-decoration: none;}
+
+  .centered-2{ 
+    position: absolute;
+    top: 90%;
+    right: 67%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-decoration: none;}
+
+    .centered-3{ 
+        position: absolute;
+        top: 150px;
+        right: 35%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        text-decoration: none;}
+    
+    .phone{text-decoration: none; color: white; font-weight: bold; font-size: 60PX;}
+
+    /* for the nav bar */
+    .anm1{
+        color: white;
+        float: left;
+        font-size: 35px;
+        text-decoration:  yellow;}
+
+    li a:hover {
+            background-color: none;}
+
+          #ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+          }
+          
+          #li {
+            float:right;
+          }
+          
+          #a {
+            display: block;
+            color: #C8DF52;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: 900;
+          }          
+
+.topnav1   
+{
+    min-height: 10vh;
+  padding: 14px 16px;
+  align-items: center;
+}
+
+.pen{width: 200px; height: 50px;}
+
+
+.footer-distributed{
+  background: black;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  white;
+}
+
+.footer-distributed .footer-company-name{
+  color:  white;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #C8DF52;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  white;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #C8DF52;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+

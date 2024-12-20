@@ -1,0 +1,40 @@
+
+h2{
+    color: red;
+}
+
+h2 {
+    display:flex;
+    align-items: center;
+}
+
+#A1 {
+    font-size: 18px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#pic {
+    height: 400px;
+    width: 200px;
+}
+
+.button1{
+    border-radius: 50px;
+    border-color:blue;
+}
+
+input.Button2 {
+    float:right;
+}
+
+
+.pic1 {
+    padding: 20px;
+    float : left;
+}
+
+
+
+

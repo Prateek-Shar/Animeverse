@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="logo2.ico">
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css">
+      <script type='text/javascript'>
+
+function checkform(){
+
+    if(document.getElementById("user").value == 'Pawan Soni' && document.getElementById("email").value == 'pawan2004soni@gmail.com' && document.getElementById("pwd").value == 'Ricky@2022' && document.getElementById("rpwd").value == 'Ricky@2022'){
+        alert("Login Successful");
+        window.location.assign("home.html")
+    }else{
+        alert("Access denied. you didn't signup it.");
+    }
+}
+</script>
+  </head>
+  <body>
+    <ul>
+      <div class='topnav'>
+        <li class="anm"><img src="logo2.png" class="pen"></li>
+        <li><a href="login.html" >SIGN IN</a></li>
+        <!--
+        <li><a href="#share">share</a></li>
+        -->
+       <li><a href="#">SIGN UP</a></li>
+       <!--
+       <li><a  class="active" href="#home">Home</a></li>
+       -->
+      </div>
+    </ul>
+    <br>
+    <h2>WELCOME TO THE UNIVERSE OF ANIME.</h2>
+    <div id="login-box">
+    <div class="left">
+      <br>
+      <br>
+      <h1 style="color: white;">Sign up</h1>
+      <input type="text" name="username" placeholder="Username" id="user" />
+      <input type="text" name="email" placeholder="E-mail"  id="email" />
+      <input type="password" name="password" placeholder="Password"  id="pwd" />
+      <input type="password" name="password2" placeholder="Retype password" id="rpwd" />
+      
+      <input type="submit" name="signup_submit" value="Sign me up" onclick="checkform()" />&nbsp &nbsp
+      <!--
+      <input type="submit" name="login_submit" value="Log in" />
+      -->
+    </div>
+    <div class="right">
+      <span class="loginwith" style="color: white;">Sign up with<br />social network</span>
+      <button class="social-signin facebook" onclick="myFunction()" target="_self" >Log in with facebook</button>
+      <script>
+        function myFunction() {
+        location.replace("https://www.facebook.com/")
+        }
+      </script>
+
+      <button class="social-signin twitter" onclick="mytweeter()">Log in with Twitter</button>
+      <script>
+        function mytweeter() {
+        location.replace("https://twitter.com/i/flow/login")
+        }
+      </script>
+      <button class="social-signin google" onclick="mygoogle()">Log in with Google+</button>
+      <script>
+        function mygoogle() {
+        location.replace("https://mail.google.com/mail/u/0/")
+        }
+      </script>
+    </div>
+    <div class="or">OR</div>
+    </div>
+  </body>
+</html>
